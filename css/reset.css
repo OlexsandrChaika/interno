@@ -1,0 +1,22 @@
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,p{
+    margin: 0;
+}
+img{
+    display: block;
+    width: 100%;
+}
+button{
+    border: none;
+    cursor:grab;
+}
+address{
+    font-style: normal;
+}
