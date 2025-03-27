@@ -44,6 +44,114 @@ body {
   color: var(--hover-color);
 }
 
+.hero{
+  padding-top: 188px;
+  padding-bottom: 260px;
+  background-image: url(../images/herobg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-title{
+color: var(--text-color);
+font-family: "DM Serif Display";
+font-size: 80px;
+font-weight: 400;
+line-height: 1.2;
+letter-spacing: 0.22px;
+margin-bottom: 19px;
+width: 595px;
+}
+
+.hero-text{
+width: 577px;
+margin-bottom: 35px;
+color: var(--description-color);
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+
+.hero-button{
+color: var(--main-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.72px;
+padding-left: 34px;
+padding-right: 67px;
+padding-top: 22px;
+padding-bottom: 22px;
+background-color: var(--text-color);
+border-radius: 16px;
+}
+
+.adventages{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.adventages-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.adventages-item{
+  padding-top: 75px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adventages-title{
+color: var(--text-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height: 1.56;
+letter-spacing: 0.22px;
+margin-bottom: 17px;
+}
+
+.adventages-text{
+margin-bottom: 68px;
+color: var(--description-color);
+text-align: center;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+width: 317px;
+}
+
+.adventages-item:nth-child(2){
+  padding-bottom: 103px;
+  .adventages-text{
+    width: 297px;
+    margin-bottom: 35px;
+  }
+}
+
+.adventages-item:nth-child(3){
+  padding-bottom: 70px;
+  .adventages-text{
+    width: 296px;
+    margin-bottom: 35px;
+  }
+}
+
+.adventages-link{
+color: #4D5053;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.36px;
+}
+
 .footer-box{
     display: flex;
     justify-content: space-between;
